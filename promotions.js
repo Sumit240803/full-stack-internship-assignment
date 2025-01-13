@@ -1,7 +1,7 @@
 // Fetch promotions from the PHP backend
 async function fetchPromotions() {
     try {
-        const response = await fetch('http://localhost:8080/project/promotions.php');
+        const response = await fetch('http://localhost:8080/promotions.php');
         const promotions = await response.json();
 
         const promoContainer = document.querySelector('.right-nav');
