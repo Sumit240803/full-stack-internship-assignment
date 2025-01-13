@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        /* Include the styles provided by you */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #6e7dff, #7367f0);
+            color: #fff;
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #e1e1e1;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #fff;
+            color: #6e7dff;
+        }
+
+        .contact-container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .contact-header h2 {
+            font-size: 2rem;
+            color: #6e7dff;
+        }
+
+        .contact-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .detail-card {
+            padding: 1.5rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(16, 71, 255, 0.1);
+        }
+
+        .detail-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+
+        .detail-card p {
+            font-size: 1rem;
+            color: #7f8c8d;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background: #34495e;
+            color: #fff;
+            margin-top: 2rem;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tech Buzz</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main class="contact-container">
+        <div class="contact-header">
+            <h2>Get in Touch</h2>
+            <p>You can contact me below:</p>
+        </div>
+        <div class="contact-details">
+            <div class="detail-card">
+                <h3>Email</h3>
+                <p>goyalsumit651@gmail.com</p>
+            </div>
+            <div class="detail-card">
+                <h3>Phone</h3>
+                <p>+91 7982913622</p>
+            </div>
+            <div class="detail-card">
+                <h3>Location</h3>
+                <p>East Delhi - 110051</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &copy; 2025 Sumit. All rights reserved.
+    </footer>
+</body>
+</html>
